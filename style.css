@@ -1,0 +1,171 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main
+{
+    width: 100%;
+    height: 100vh;
+   
+}
+#back
+{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+#back img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#top
+{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+   
+}
+#workingarea
+{
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    height: 100vh;
+    max-width: 1920px;
+ 
+}
+
+#nav
+{
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+#nav img
+{
+    height: 60px;
+
+}
+
+#nleft ,#nright 
+{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+   
+
+}
+#nav a
+{
+    pointer-events: all;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: "Poppins";
+}
+#hero
+{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+   
+}
+#heroleft
+{
+    min-width: 50%;
+    margin-top: 7vw;
+   
+}
+#heroleft .elem
+{
+    position: relative;
+    height: 9vw;
+   overflow: hidden;
+   
+}
+
+#heroleft .elem h1:nth-child(1)
+{
+    top: 0;
+}
+#heroleft .elem h1
+{
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    line-height: .9;
+    font-family: "kajiro";
+    color: white;
+    font-weight: 100;
+    font-size: 10vw;
+   
+}
+#heroleft button
+{
+    pointer-events: all;
+    padding: .8vw 2vw;
+    font-size: 2.5vw;
+    letter-spacing: 3px;
+    margin-top: .9vw;
+    font-family: "kajiro";
+}
+#heroright
+{
+    margin-top: 7vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 17%;
+    color: white;
+  
+}
+#heroright p
+{
+    text-align: right;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+#heroright #imagediv
+
+{
+    width: 100%;
+    height: 150px;
+    background-image: url(https://img.freepik.com/free-photo/beautiful-brown-haired-girl-with-black-sunglasses-laughing-claret-space_197531-7434.jpg?t=st=1717836303~exp=1717839903~hmac=983ca350a537ed5e00f5adba623cd965d314451d2964574f8ad7e185fb8bf09c&w=900);
+    background-size: cover;
+    background-position: center ;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+#heroright p:nth-child(3)
+{
+    margin-bottom: 50px;
+}
